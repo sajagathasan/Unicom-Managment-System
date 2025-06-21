@@ -1,0 +1,34 @@
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.AssemblyReference.cache
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.FrontviewForm.resources
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Properties.Resources.resources
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.GenerateResource.cache
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.CoreCompileInputs.cache
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe.config
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.pdb
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.dll
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.xml
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.views.StudentLoginForm.resources
+C:\Users\UT010420\Desktop\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.AdminLoginForm.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe.config
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.pdb
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.dll
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.xml
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.AssemblyReference.cache
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Dashboadadmin.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Properties.Resources.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadstudent.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadteacher.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.EditDetails.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.FrontForm.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StudentForm.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.TeacherForm.resources
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.GenerateResource.cache
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.CoreCompileInputs.cache
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
+Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb
