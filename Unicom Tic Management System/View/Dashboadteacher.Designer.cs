@@ -145,6 +145,7 @@
             this.button7.TabIndex = 4;
             this.button7.Text = "Manage Students";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button9
             // 
@@ -154,6 +155,7 @@
             this.button9.TabIndex = 6;
             this.button9.Text = "Manage Subjects";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button12
             // 
@@ -163,6 +165,7 @@
             this.button12.TabIndex = 13;
             this.button12.Text = "Manage Marks";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // panel3
             // 
@@ -183,6 +186,7 @@
             this.button14.TabIndex = 15;
             this.button14.Text = "Manage Timetable";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // pictureBox1
             // 

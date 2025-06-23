@@ -32,3 +32,47 @@ Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\
 Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
 Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
 Z:\C# project\ums\Unicom Tic Management System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.AssemblyReference.cache
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.AIForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Dashboadadmin.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Properties.Resources.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadstudent.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadteacher.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.DatascienceForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.ForgotPasswordForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.FrontForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Fullstakedevlopment.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.MachinelearingForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StaffForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StudentForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.SubjectForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StudentstudentForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.TeacherForm.resources
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.GenerateResource.cache
+C:\Users\UT010420\Desktop\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.CoreCompileInputs.cache
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe.config
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.exe
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\bin\Debug\Unicom Tic Management System.pdb
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.dll
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\bin\Debug\System.Data.SQLite.xml
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.AssemblyReference.cache
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.AIForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Dashboadadmin.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.Properties.Resources.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadstudent.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Dashboadteacher.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.DatascienceForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.ForgotPasswordForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.FrontForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.Fullstakedevlopment.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.MachinelearingForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StaffForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StudentForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.SubjectForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.StudentstudentForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.TeacherForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.GenerateResource.cache
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.csproj.CoreCompileInputs.cache
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb

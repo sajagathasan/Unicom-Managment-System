@@ -21,5 +21,34 @@ namespace Unicom_Tic_Management_System.View
         {
             Application.Exit();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SubjectForm subjectForm = new SubjectForm();
+            subjectForm.FormClosed += (s, args) => this.Show();
+            subjectForm.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ExamForm examForm = new ExamForm(this); // pass current form
+            examForm.Show();
+            this.Hide();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            TimetableForm timetableForm = new TimetableForm();
+            timetableForm.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            MarksteacherForm marksForm = new MarksteacherForm();
+            marksForm.Show();
+            this.Hide();
+        }
     }
 }

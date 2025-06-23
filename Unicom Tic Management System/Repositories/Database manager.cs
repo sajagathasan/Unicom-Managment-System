@@ -43,6 +43,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     CREATE TABLE IF NOT EXISTS Subjects (
                         SubjectID INTEGER PRIMARY KEY,
                         SubjectName TEXT,
+                        CourseName TEXT,
                         CourseID INTEGER,
                         FOREIGN KEY(CourseID) REFERENCES Courses
                      );
@@ -82,6 +83,23 @@ namespace Unicom_Tic_Management_System.Repositories
                         PassWord TEXT NOT NULL,
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID)
                      );
+
+                    CREATE TABLE IF NOT EXISTS Staff (
+                        StaffID INTEGER PRIMARY KEY,
+                        FirstName TEXT NOT NULL,
+                        LastName TEXT NOT NULL,
+                        EmailID TEXT NOT NULL,
+                        Address TEXT NOT NULL,
+                        MobileNumber TEXT NOT NULL,
+                        Gender TEXT NOT NULL,
+                        NICNumber TEXT NOT NULL,
+                        DateOfBirth TEXT NOT NULL,
+                        Qualification TEXT NOT NULL,
+                        Position TEXT NOT NULL,
+                        UserName TEXT NOT NULL,
+                        PassWord TEXT NOT NULL
+                     );
+
 
                     CREATE TABLE IF NOT EXISTS Exams (
                         ExamID INTEGER PRIMARY KEY,
@@ -194,6 +212,174 @@ namespace Unicom_Tic_Management_System.Repositories
             conn.Close();
 
         }
+
+        public void AddStaff(string firstName, string lastName, string email, string address, string mobile, string gender, string nic, string dob, string qualification, string position, string userName, string passWord)
+        {
+            conn.Open();
+            var cmd = new SQLiteCommand(@"
+        INSERT INTO Staff (
+            FirstName, LastName, EmailID, Address, MobileNumber, Gender, NICNumber, DateOfBirth, Qualification, Position, UserName, PassWord
+        ) VALUES (
+            @f, @l, @e, @a, @m, @g, @n, @d, @q, @o, @u, @p
+        )", conn);
+
+            cmd.Parameters.AddWithValue("@f", firstName);
+            cmd.Parameters.AddWithValue("@l", lastName);
+            cmd.Parameters.AddWithValue("@e", email);
+            cmd.Parameters.AddWithValue("@a", address);
+            cmd.Parameters.AddWithValue("@m", mobile);
+            cmd.Parameters.AddWithValue("@g", gender);
+            cmd.Parameters.AddWithValue("@n", nic);
+            cmd.Parameters.AddWithValue("@d", dob);
+            cmd.Parameters.AddWithValue("@q", qualification);
+            cmd.Parameters.AddWithValue("@o", position);
+            cmd.Parameters.AddWithValue("@u", userName);
+            cmd.Parameters.AddWithValue("@p", passWord);
+
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public void AddSubject(string subjectName, string courseName, int courseId, int subjectId)
+        {
+            conn.Open();
+            var cmd = new SQLiteCommand("INSERT INTO Subjects (SubjectName, CourseID, CourseName, SubjectID) VALUES (@n, @c, @o, @u)", conn);
+            cmd.Parameters.AddWithValue("@n", subjectName);
+            cmd.Parameters.AddWithValue("@o", courseName);
+            cmd.Parameters.AddWithValue("@c", courseId);
+            cmd.Parameters.AddWithValue("@u", subjectId);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public DataTable GetSubjects()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter(@"
+                SELECT Subjects.SubjectID, Subjects.SubjectName, Courses.CourseName, Course.CourseID 
+                FROM Subjects 
+                JOIN Courses ON Subjects.CourseID = Courses.CourseID", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public void UpdateSubject(int subjectId, string subjectName, string courseName, int courseId)
+        {
+            conn.Open();
+            var cmd = new SQLiteCommand("UPDATE Subjects SET SubjectName = @n, CourseName = @o, SubjectID = @c WHERE SubjectID = @u", conn);
+            cmd.Parameters.AddWithValue("@n", subjectName);
+            cmd.Parameters.AddWithValue("@o", courseName);
+            cmd.Parameters.AddWithValue("@u", subjectId);
+            cmd.Parameters.AddWithValue("@c", courseId);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public void DeleteSubject(int courseId, int subjectId, string subjectName, string courseName)
+        {
+            conn.Open();
+            var cmd = new SQLiteCommand("DELETE FROM Subjects SET SubjectName = @o, CourseName = @c Subjects WHERE SubjectID = @u", conn);
+            cmd.Parameters.AddWithValue("@n", subjectName);
+            cmd.Parameters.AddWithValue("@o", courseName);
+            cmd.Parameters.AddWithValue("@u", subjectId);
+            cmd.Parameters.AddWithValue("@c", courseId);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+        }
+
+        public DataTable GetCourses()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Courses", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public bool UpdatePassword(string username, string newPassword)
+        {
+            conn.Open();
+            var cmd = new SQLiteCommand("UPDATE Users SET Password = @pwd WHERE Username = @user", conn);
+            cmd.Parameters.AddWithValue("@pwd", newPassword);
+            cmd.Parameters.AddWithValue("@user", username);
+
+            int rows = cmd.ExecuteNonQuery();
+            conn.Close();
+
+            return rows > 0;
+        }
+
+
+
+        public (string Role, string Name) GetUserRole(string username, string password)
+        {
+            conn.Open();
+
+            // Admins
+            var cmd = new SQLiteCommand("SELECT * FROM Users WHERE Username = @u AND Password = @p", conn);
+            cmd.Parameters.AddWithValue("@u", username);
+            cmd.Parameters.AddWithValue("@p", password);
+            var reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                string role = reader["Role"].ToString();
+                reader.Close();
+                conn.Close();
+                return (role, username);
+            }
+            reader.Close();
+
+            // Students
+            cmd = new SQLiteCommand("SELECT * FROM Students WHERE UserName = @u AND PassWord = @p", conn);
+            cmd.Parameters.AddWithValue("@u", username);
+            cmd.Parameters.AddWithValue("@p", password);
+            reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                string name = reader["FirstName"].ToString();
+                reader.Close();
+                conn.Close();
+                return ("Student", name);
+            }
+            reader.Close();
+
+            // Teachers
+            cmd = new SQLiteCommand("SELECT * FROM Teachers WHERE UserName = @u AND PassWord = @p", conn);
+            cmd.Parameters.AddWithValue("@u", username);
+            cmd.Parameters.AddWithValue("@p", password);
+            reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                string name = reader["FirstName"].ToString();
+                reader.Close();
+                conn.Close();
+                return ("Teacher", name);
+            }
+            reader.Close();
+
+            // Staff
+            cmd = new SQLiteCommand("SELECT * FROM Staff WHERE UserName = @u AND PassWord = @p", conn);
+            cmd.Parameters.AddWithValue("@u", username);
+            cmd.Parameters.AddWithValue("@p", password);
+            reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                string name = reader["FirstName"].ToString();
+                reader.Close();
+                conn.Close();
+                return ("Staff", name);
+            }
+            reader.Close();
+
+
+            conn.Close();
+            return (null, null); // Not found
+        }
+
+
 
     }
 }

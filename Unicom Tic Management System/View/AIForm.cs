@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Unicom_Tic_Management_System.View
 {
-    public partial class EditDetails : Form
+    public partial class AIForm : Form
     {
-        public EditDetails()
+        public AIForm()
         {
             InitializeComponent();
         }

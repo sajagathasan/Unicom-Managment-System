@@ -118,22 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="adminloginbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\adminloginbg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="img" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="futuristic-technology-generates-abstract-data-in-a-glowing-blue-design-generated-by-ai-free-photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\futuristic-technology-generates-abstract-data-in-a-glowing-blue-design-generated-by-ai-free-photo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="types-of-machine-learning.jpg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\types-of-machine-learning.jpg.optimal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deep-learning-concept-illustrated-by-pictures-on-background-2J138WF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deep-learning-concept-illustrated-by-pictures-on-background-2J138WF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UNICOM_TIC_LOGO_2048x773" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\UNICOM-TIC_LOGO-2048x773.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="types-of-machine-learning.jpg.optimal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\types-of-machine-learning.jpg.optimal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\img2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Benefits-of-Supervised-Learning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Benefits-of-Supervised-Learning.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OkqH0Xja9Kp5AZHSzl6ifosx70c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OkqH0Xja9Kp5AZHSzl6ifosx70c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-bi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-bi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\img3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="florian-olivo-4hbJ-eymZ1o-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\florian-olivo-4hbJ-eymZ1o-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="981063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\981063.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="570-5708783_bare-trees-clip-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\570-5708783_bare-trees-clip-art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-C_Sharp_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-C_Sharp_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="React-Logo-PNG-Pic-200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\React-Logo-PNG-Pic-200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OIP__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\OIP (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UNICOM_TIC_LOGO_2048x773" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\UNICOM-TIC_LOGO-2048x773.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="adminloginbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adminloginbg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1000_F_381440841_OGQ1y0vfwaKmROCHdjgGITjrgjsGj8gy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_381440841_OGQ1y0vfwaKmROCHdjgGITjrgjsGj8gy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basicofdatascience" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basicofdatascience.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_Iihw0V-r0raMMtcDTFGGQA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_Iihw0V-r0raMMtcDTFGGQA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1__rBkDb50frB9bGHR88vowg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1__rBkDb50frB9bGHR88vowg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Process-OPs-1168x800-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Process-OPs-1168x800-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

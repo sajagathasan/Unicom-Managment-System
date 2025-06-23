@@ -69,8 +69,46 @@ namespace Unicom_Tic_Management_System
 
         private void button10_Click(object sender, EventArgs e)
         {
-            TeacherForm teacherForm = new TeacherForm();
+            TeacherForm teacherForm = new TeacherForm(this);
+            this.Hide();
             teacherForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StaffForm staffForm = new StaffForm();
+            staffForm.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SubjectForm subjectForm = new SubjectForm();
+            subjectForm.FormClosed += (s, args) => this.Show();
+            subjectForm.Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            TimetableForm timetableForm = new TimetableForm();  
+            timetableForm.Show();
+            this.Hide();
+
+            TimetablestudentForm timetablestudentForm = new TimetablestudentForm();
+            timetablestudentForm.Show();
+            this.Hide();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            MarksteacherForm marksForm = new MarksteacherForm();
+            marksForm.Show();
+            this.Hide();
         }
     }
 }

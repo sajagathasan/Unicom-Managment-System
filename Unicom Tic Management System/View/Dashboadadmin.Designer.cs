@@ -42,7 +42,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -145,6 +144,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Create New Staff";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -177,20 +177,11 @@
             this.label2.Size = new System.Drawing.Size(189, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Welcome Admin!!";
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(142, 12);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(119, 48);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Manage Students";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(322, 12);
+            this.button8.Location = new System.Drawing.Point(191, 12);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(138, 48);
             this.button8.TabIndex = 4;
@@ -199,12 +190,13 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(539, 12);
+            this.button9.Location = new System.Drawing.Point(438, 12);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(138, 48);
             this.button9.TabIndex = 5;
             this.button9.Text = "Manage Subjects";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // pictureBox1
             // 
@@ -218,16 +210,17 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(752, 15);
+            this.button12.Location = new System.Drawing.Point(681, 15);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(138, 48);
             this.button12.TabIndex = 12;
             this.button12.Text = "Manage Marks";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(974, 15);
+            this.button13.Location = new System.Drawing.Point(942, 15);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(138, 48);
             this.button13.TabIndex = 13;
@@ -251,6 +244,7 @@
             this.button14.TabIndex = 14;
             this.button14.Text = "Manage Timetable";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // Dashboadadmin
             // 
@@ -265,7 +259,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
@@ -294,7 +287,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.PictureBox pictureBox1;

@@ -17,7 +17,7 @@ namespace Unicom_Tic_Management_System.View
         {
             Application.OpenForms["DashboardForm"].Show();
         }
-        public TeacherForm()
+        public TeacherForm(Dashboadadmin dashboadadmin)
         {
             InitializeComponent();
             dateTimePicker1.Enabled = true;
@@ -109,9 +109,27 @@ namespace Unicom_Tic_Management_System.View
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            TeacherForm TeacherForm = new TeacherForm();
-            TeacherForm.Show();
+            ClearFields();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TeacherForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     
