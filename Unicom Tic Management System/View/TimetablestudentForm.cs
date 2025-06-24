@@ -16,7 +16,15 @@ namespace Unicom_Tic_Management_System.View
         public TimetablestudentForm()
         {
             InitializeComponent();
+            this.Load += TimetablestudentForm_Load;
         }
+
+        private void LoadTimetblestudentData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+           // dataGridView1.DataSource = db.GetAllTimetblestudent();
+        }
+
 
         private void TimetablestudentForm_Load(object sender, EventArgs e)
         {

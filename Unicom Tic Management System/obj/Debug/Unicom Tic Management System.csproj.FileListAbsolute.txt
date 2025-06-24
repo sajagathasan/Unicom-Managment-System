@@ -76,3 +76,11 @@ Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management 
 Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
 Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
 Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.ExamForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.ExamstudentForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.MarksstudentForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.MarksteacherForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.RoomForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.RoomstudentForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.TimetableForm.resources
+Z:\C# project\system\sajagathasan\Unicom-Managment-System\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.View.TimetablestudentForm.resources

@@ -14,18 +14,19 @@ namespace Unicom_Tic_Management_System.View
     public partial class ExamForm : Form
     {
         private string userRole;
+        private Form previousForm;
 
         public ExamForm()
         {
             InitializeComponent();
         }
 
-        private Form previousForm;
 
         public ExamForm(Form callingForm)
         {
             InitializeComponent();
             previousForm = callingForm;
+            this.Load += ExamForm_Load;
         }
 
         private void ExamForm_Load(object sender, EventArgs e)
@@ -34,12 +35,17 @@ namespace Unicom_Tic_Management_System.View
 
             if (userRole == "Student")
             {
-                // Disable buttons or hide editing features
                 button1.Visible = false;
                 button2.Visible = false;
                 button3.Visible = false;
             }
         }
+        /*public void LoadExamData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+            dataGridView1.DataSource = db.GetAllExam();
+        }*/
+
 
         private void LoadExamData()
         {
@@ -69,6 +75,21 @@ namespace Unicom_Tic_Management_System.View
         {
             previousForm.Show(); 
             this.Close();
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime selectedDate = dateTimePicker1.Value;
+            if (selectedDate > DateTime.Today)
+            {
+                MessageBox.Show("Date of birth cannot be in the future.");
+                dateTimePicker1.Value = DateTime.Today.AddYears(-18);
+            }
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

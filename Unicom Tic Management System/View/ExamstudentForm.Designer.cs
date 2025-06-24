@@ -101,6 +101,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "ExamstudentForm";
             this.Text = "ExamstudentForm";
+            this.Load += new System.EventHandler(this.ExamstudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

@@ -144,11 +144,91 @@ namespace Unicom_Tic_Management_System.Repositories
                 }
             }
         }
+
+        public DataTable GetAllTeacher()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Teacher", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllStudent()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Student", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllStaff()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Staff", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
         public DataTable GetAllCourses()
         {
             conn.Open();
             var adapter = new SQLiteDataAdapter("SELECT * FROM Courses", conn);
             var dt = new DataTable();
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllSujects()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Sujects", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllExams()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Staff", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllMarks()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Staff", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllRooms()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Staff", conn);
+            adapter.Fill(dt);
+            conn.Close();
+            return dt;
+        }
+
+        public DataTable GetAllTimetable()
+        {
+            conn.Open();
+            var dt = new DataTable();
+            var adapter = new SQLiteDataAdapter("SELECT * FROM Staff", conn);
             adapter.Fill(dt);
             conn.Close();
             return dt;

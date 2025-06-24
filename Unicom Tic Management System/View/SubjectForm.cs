@@ -17,7 +17,15 @@ namespace Unicom_Tic_Management_System.View
         public SubjectForm()
         {
             InitializeComponent();
+            this.Load += SubjectForm_Load;
         }
+
+        private void LoadSubjectData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+           // dataGridView1.DataSource = db.GetAllSubject();
+        }
+
 
         private void SubjectForm_Load(object sender, EventArgs e)
         {
@@ -146,7 +154,7 @@ namespace Unicom_Tic_Management_System.View
 
         private void SubjectForm_Load_1(object sender, EventArgs e)
         {
-
+            LoadSubjectData();
         }
     }
 }

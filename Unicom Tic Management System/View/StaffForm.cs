@@ -16,7 +16,15 @@ namespace Unicom_Tic_Management_System.View
         public StaffForm()
         {
             InitializeComponent();
+            this.Load += StaffForm_Load;
         }
+
+        private void LoadStaffData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+            dataGridView1.DataSource = db.GetAllStaff();
+        }
+
 
         private void label6_Click(object sender, EventArgs e)
         {
@@ -87,6 +95,31 @@ namespace Unicom_Tic_Management_System.View
             textBox10.Enabled = true;
             textBox8.Enabled = true;
             textBox9.Enabled = true;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime selectedDate = dateTimePicker1.Value;
+            if (selectedDate > DateTime.Today)
+            {
+                MessageBox.Show("Date of birth cannot be in the future.");
+                dateTimePicker1.Value = DateTime.Today.AddYears(-18);
+            }
+        }
+
+        private void StaffForm_Load(object sender, EventArgs e)
+        {
+            LoadStaffData();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

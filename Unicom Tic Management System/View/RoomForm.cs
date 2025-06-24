@@ -16,6 +16,13 @@ namespace Unicom_Tic_Management_System.View
         {
             InitializeComponent();
             InitializeGrid();
+            this.Load += RoomForm_Load;
+        }
+
+        private void LoadRoomData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+            //dataGridView1.DataSource = db.GetAllRoom();
         }
 
         private void InitializeGrid()
@@ -29,7 +36,7 @@ namespace Unicom_Tic_Management_System.View
 
         private void RoomForm_Load(object sender, EventArgs e)
         {
-
+            LoadRoomData();
         }
 
         private void button1_Click(object sender, EventArgs e)

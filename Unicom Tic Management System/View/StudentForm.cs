@@ -26,7 +26,21 @@ namespace Unicom_Tic_Management_System.View
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Controls.Add(this.dateTimePicker1);
             dateTimePicker1.Value = DateTime.Today.AddYears(-18);
+            this.Load += StudentForm_Load;
         }
+
+        private void LoadStaffData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+            dataGridView1.DataSource = db.GetAllStudent(); 
+        }
+
+        private void StudentForm_Load(object sender, EventArgs e)
+        {
+           // LoadStudentData();
+          
+        }
+
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
@@ -85,7 +99,12 @@ namespace Unicom_Tic_Management_System.View
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-
+            DateTime selectedDate = dateTimePicker1.Value;
+            if (selectedDate > DateTime.Today)
+            {
+                MessageBox.Show("Date of birth cannot be in the future.");
+                dateTimePicker1.Value = DateTime.Today.AddYears(-18);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -116,5 +135,17 @@ namespace Unicom_Tic_Management_System.View
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        
     }
 }

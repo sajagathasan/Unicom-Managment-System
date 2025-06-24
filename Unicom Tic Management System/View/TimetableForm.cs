@@ -16,6 +16,15 @@ namespace Unicom_Tic_Management_System.View
         public TimetableForm()
         {
             InitializeComponent();
+            this.Load += TimetableForm_Load;
+            /*this.Load += SubjectForm_Load;
+            this.Load += RoomForm_Load;*/
+        }
+
+        private void LoadTimetableData()
+        {
+            var db = new Unicom_Tic_Management_System.Repositories.DatabaseManager();
+            dataGridView1.DataSource = db.GetAllTimetable();
         }
 
         private void button1_Click(object sender, EventArgs e)
